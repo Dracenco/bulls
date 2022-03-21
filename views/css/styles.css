@@ -1,0 +1,324 @@
+body {
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.heading-logo {
+    max-height: 200px;
+    margin: 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-description {
+    font-size: 0.9rem;
+    color: #d3d3d3;
+    text-shadow: 0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+
+.bonus-description {
+    font-size: 0.9rem;
+    color: #d3d3d3;
+    text-shadow: 0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+tbody tr {
+    margin-top: 1em;
+}
+
+tr th {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+}
+
+tr td {
+    background-color: #FFFFFF;
+}
+
+.user-rating-image {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.user-rating-text {
+    margin-bottom: 0;
+}
+
+td {
+    text-align: center;
+    position: relative;
+}
+
+.welcome-text-bold {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.welcome-text-simple {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.img-container {
+    width: 95%;
+    background-color: green;
+}
+
+.first-child-container {
+    display: flex;
+}
+
+.rating-score {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.btn-success {
+    border-radius: 4px;
+    height: 45px;
+    margin: 10px;
+    line-height: 45px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.img-container img {
+    max-width: 100px;
+    max-height: 75px;
+    margin-top: 20px;
+}
+
+.img1 {
+    background-color: purple;
+}
+
+.img2 {
+    background-color: black;
+}
+
+.img3 {
+    background-color: whitesmoke;
+}
+
+.img4 {
+    background-color: steelblue;
+}
+
+.img5 {
+    background-color: lightblue;
+}
+
+.arrow-container-1 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 15px solid purple;
+}
+
+.arrow-container-2 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 15px solid black;
+}
+
+.arrow-container-3 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 15px solid whitesmoke;
+}
+
+.arrow-container-4 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 15px solid steelblue;
+}
+
+.arrow-container-5 {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 15px solid lightblue;
+}
+
+.border-element,
+.border-element-first {
+    border-right: 1px solid lightgray;
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    top: 23px;
+}
+
+.border-element-first {
+    padding-left: 20px;
+}
+
+
+.first-child-container:after {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/ribbon.png);
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    top: -0px;
+    left: -3px;
+}
+.user-rating-image-mobile,
+.platform-title-mobile {
+    display: none;
+}
+
+@media (max-width: 797px) {
+    table { border-collapse: separate; }
+    tr td:first-child { border-top-left-radius: 10px; }
+    tr td:last-child { border-top-right-radius: 10px; }
+    tr td:first-child { border-bottom-left-radius: 10px; }
+    tr td:last-child { border-bottom-right-radius: 10px; }
+    .main-description,
+    thead,
+    .rating-score-parent,
+    .border-element,
+    .border-element-first,
+    .arrow-container-1,
+    .arrow-container-2,
+    .arrow-container-3,
+    .arrow-container-4,
+    .arrow-container-5,
+    .first-child-container:after,
+    .user-rating-parent,
+    .last-row,
+    .platform-description-1 p,
+    .platform-description-2 p,
+    .platform-description-3 p,
+    .platform-description-4 p
+    {
+        display: none;
+    }
+    h2 {
+        font-size: 2.1rem;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        background-color:transparent;
+    }
+    .bonus-description {
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 0;
+        font-size: 19px;
+        font-weight: 700;
+    }
+    td {
+        position: unset;
+    }
+    tr {
+        position: relative;
+    }
+    .btn-success:after {
+        content: "";
+        background-size: cover;
+        background-position: center;
+        background-image: url(../assets/ribbon.png);
+        height: 20px;
+        width: 100px;
+        position: absolute;
+        top: -0px;
+        right: -3px;
+    }
+    .user-rating-image-mobile {
+        max-height: 50px;
+        max-width: 50px;
+        margin-top: 20px;
+    }
+    .platform-title-mobile {
+        display: unset;
+    }
+    body {
+        background-image: unset;
+    }
+    .heading-section {
+        background-size: cover;
+        background-image: url("../assets/background.jpg");
+        background-repeat: no-repeat;
+    }
+    .content-section {
+        background-color: #000000;
+    }
+    .platform-description-1:after {
+        content: "100% Up To + $1500 + \A 150 Zee Spins \A +500 Zee Points";
+        white-space: pre-wrap;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .platform-description-2:after {
+        content: "200% Up To + $500 + \A FREE SPINS";
+        white-space: pre-wrap;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .platform-description-3:after {
+        content: "200% Up To + $3,000 + \A +30 FREE SPINS";
+        white-space: pre-wrap;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .platform-description-4:after {
+        content: "100% Up To + $200 + \A 25 Free Spins on Book \A of Dead";
+        white-space: pre-wrap;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .user-rating-image-mobile {
+        display: unset;
+    }
+    .first-child-container {
+        display: revert;
+    }
+    .table-content-row {
+        margin-bottom: 20px;
+    }
+}

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545124ff-f8ff-461e-b8ee-8149f5132f6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/save_to_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +20,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="26ecJ11lUYLijMmHciSV82nuRO0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +42,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\bulls\views\css" />
+      <recent name="C:\xampp1\htdocs\bulls\app" />
+      <recent name="C:\Users\AndreiDracenco\Documents\bulls\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,7 +57,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647787417459</updated>
-      <workItem from="1647787418795" duration="298000" />
+      <workItem from="1647787418795" duration="7868000" />
+      <workItem from="1647846136840" duration="1918000" />
+      <workItem from="1647869326325" duration="6563000" />
+      <workItem from="1647884575714" duration="76000" />
+      <workItem from="1647884654468" duration="22000" />
+      <workItem from="1647884685146" duration="103000" />
+      <workItem from="1647884817642" duration="7600000" />
     </task>
     <servers />
   </component>
@@ -53,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
