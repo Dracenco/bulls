@@ -13,6 +13,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Check if database exists. if not, create one
 if(!$conn->select_db('bulls_logs')){
     $createDbSql = 'CREATE Database bulls_logs';
     if (!$conn->query($createDbSql)) {
@@ -21,6 +22,7 @@ if(!$conn->select_db('bulls_logs')){
     $conn->select_db('bulls_logs');
 }
 
+// Check if table exists. if not, create one
 $tableExists = $conn->query("SHOW TABLES LIKE '$table'");
 
 if (!$tableExists || !$tableExists->num_rows) {
@@ -35,6 +37,7 @@ if (!$tableExists || !$tableExists->num_rows) {
     }
 }
 
+//insert logs data into table.
 $userIpFiltered = $conn->real_escape_string($userIp);
 $insertLogsSql = "INSERT INTO $table (time, button_id, user_ip) VALUES ('$date $time', $buttonId, '$userIpFiltered')";
 
