@@ -1,0 +1,22 @@
+table td,
+table th {
+    border: solid 1px black;
+}
+td {
+    text-align: center;
+    width: 100px;
+}
+
+th {
+    cursor: pointer;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    max-width: 500px;
+}
